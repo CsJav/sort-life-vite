@@ -11,7 +11,7 @@ import {
   Progress,
   Stack,
 } from '@chakra-ui/react';
-import Card from '../Card';
+import Card from '../Card/Card';
 import CustomControls from './CustomControls';
 import { format } from 'date-fns';
 import { PopoverForm } from './PopoverForm/PopoverForm';

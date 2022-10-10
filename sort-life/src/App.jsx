@@ -1,16 +1,14 @@
 import "./App.css";
 import React from "react";
-import Main from "./Scenes/Home";
+import Home from "./Scenes/Home/Home";
 import { Center } from "@chakra-ui/react";
 
-function App() {
+export default function App() {
   return (
     <>
       <Center>
-        <Main />
+        <Home />
       </Center>
     </>
   );
 }
-
-export default App;

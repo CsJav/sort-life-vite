@@ -13,6 +13,10 @@ module.exports = {
     sourceType: 'module',
   },
   plugins: ['react'],
+  devServer: {
+    historyApiFallback: true,
+    hot: true,
+  },
   rules: {
     'react/prop-types': 'off',
   },

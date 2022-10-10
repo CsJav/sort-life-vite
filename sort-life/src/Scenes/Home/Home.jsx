@@ -3,13 +3,14 @@ import React, { useState } from 'react';
 import { Box, Center, useColorMode } from '@chakra-ui/react';
 import { useNavigate } from 'react-router-dom';
 
-import Card from '../components/Card';
-import RowTable from '../components/Table';
-import Task from '../components/Task';
+import Card from '../Components/Card/Card';
+import RowTable from '../Components/RowTable/RowTable';
+
 import { Navbar } from './NavBar/Navbar';
 import Header from './Header/Header';
+import Task from '../Components/Task/Task';
 
-export default function Main() {
+export default function Home() {
   const [task, setTask] = useState();
   const [table, setTable] = useState([]);
   const [date, setDate] = useState([]);
