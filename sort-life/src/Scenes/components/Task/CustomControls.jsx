@@ -30,9 +30,9 @@ export default function CustomControls({ task }) {
       isPreviewFocusable={false}
     >
       <Stack spacing={4} direction="row" align="center">
-        <EditablePreview style={{ width: 475 }} />
+        <EditablePreview style={{ width: 385 }} />
 
-        <Input value={task.task} as={EditableInput} style={{ width: 475 }} />
+        <Input value={task.task} as={EditableInput} style={{ width: 385 }} />
 
         <EditableControls />
 
